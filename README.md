@@ -74,7 +74,7 @@ learning how to use Transition in app
         </tr>
   </table>
 
-![img](https://github.com/willkernel/TransitionApp/blob/master/pngs/flow.png)
+![img](https://github.com/willkernel/TransitionApp/blob/master/pngs/flow.png)<br>
 Transition类：captureStartValues();captureEndValues();createAnimator();<br>
 从2个Scene的每个Target获取StartValues和EndValues，然后用createAnimator给每个Target创建属性动画<br>
 
