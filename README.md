@@ -74,13 +74,13 @@ learning how to use Transition in app
         </tr>
   </table>
 
-![img](../flow.png)
-Transition类：captureStartValues();captureEndValues();createAnimator();
-从2个Scene的每个Target获取StartValues和EndValues，然后用createAnimator给每个Target创建属性动画
+![img](https://github.com/willkernel/TransitionApp/blob/master/pngs/flow.png)<br>
+Transition类：captureStartValues();captureEndValues();createAnimator();<br>
+从2个Scene的每个Target获取StartValues和EndValues，然后用createAnimator给每个Target创建属性动画<br>
 
-Note:
-在SurfaceView上可能表现不正常 
-在TextureView上施加某些Transition 效果，可能达不到预期效果
-继承自AdapterView的View，比如ListView上可能会出错
-对TextView的size 施加Transition 效果时，文字的位置会突变
-不要通过scene的actions在scene间传数据，用callback
+Note:<br>
+在SurfaceView上可能表现不正常<br>
+在TextureView上施加某些Transition 效果，可能达不到预期效果<br>
+继承自AdapterView的View，比如ListView上可能会出错<br>
+对TextView的size 施加Transition 效果时，文字的位置会突变<br>
+不要通过scene的actions在scene间传数据，用callback<br>
