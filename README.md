@@ -80,7 +80,7 @@ Transition类：captureStartValues();captureEndValues();createAnimator();<br>
 
 Note:<br>
 在SurfaceView上可能表现不正常<br>
-在TextureView上施加某些Transition 效果，可能达不到预期效果<br><br>
+在TextureView上施加某些Transition 效果，可能达不到预期效果<br>
 继承自AdapterView的View，比如ListView上可能会出错<br>
 对TextView的size 施加Transition 效果时，文字的位置会突变<br>
 不要通过scene的actions在scene间传数据，用callback<br>
