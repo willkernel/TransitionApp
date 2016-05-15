@@ -6,30 +6,19 @@
     android:background="#ff000000"
     tools:context=".activity.MainActivity">
 
-    <ImageView
+    <ImageButton
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
         android:background="#00000000"
         android:contentDescription="shape"
         android:onClick="changeScene"
         android:src="@drawable/shape1" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:background="#00000000"
-        android:contentDescription="shape"
-        android:onClick="changeScene"
-        android:src="@drawable/shape2" />
-
-    <ImageView
-        android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -37,27 +26,30 @@
         android:background="#00000000"
         android:contentDescription="shape"
         android:onClick="changeScene"
+        android:src="@drawable/shape2" />
+
+    <ImageButton
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#00000000"
+        android:contentDescription="shape"
+        android:onClick="changeScene"
         android:src="@drawable/shape3" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/btn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:background="#00000000"
         android:contentDescription="shape"
         android:onClick="changeScene"
         android:src="@drawable/shape4" />
-    <Button
-        android:id="@+id/green_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/blue_btn"
-        android:layout_centerHorizontal="true"
-        android:background="@android:color/holo_green_light"
-        android:onClick="transitionGreen"
-        android:text="transitionGreen" />
+
     <Button
         android:id="@+id/blue_btn"
         android:layout_width="wrap_content"
@@ -66,15 +58,25 @@
         android:layout_centerHorizontal="true"
         android:background="@android:color/holo_blue_light"
         android:onClick="transitionBlue"
-        android:text="@string/transitionblue" />
+        android:text="transitionBlue" />
 
     <Button
         android:id="@+id/red_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@android:color/holo_red_light"
+        android:layout_above="@+id/green_btn"
         android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_red_light"
         android:onClick="transitionRed"
         android:text="transitionRed" />
+
+    <Button
+        android:id="@+id/green_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_green_light"
+        android:onClick="transitionGreen"
+        android:text="transitionGreen" />
 </RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/blueIv"
+        style="@style/Icon_Small"
+        android:onClick="onClick"
+        android:src="@drawable/xiaoma_intro_img_blue" />
+
+    <ImageView
+        android:id="@+id/orangeIv"
+        style="@style/Icon_Small"
+        android:onClick="onClick"
+        android:src="@drawable/xiaoma_intro_img_orange" />
+
+    <ImageView
+        android:id="@+id/greenIv"
+        style="@style/Icon_Small"
+        android:onClick="onClick"
+        android:src="@drawable/xiaoma_intro_img_green" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/purpleIv"
+            style="@style/Icon_Small"
+            android:onClick="onClick"
+            android:src="@drawable/xiaoma_intro_img_purple" />
+
+        <TextView
+            android:id="@+id/purpleTv"
+            style="@style/Text.Body"
+            android:layout_gravity="center_vertical"
+            android:text="@string/sharedElement"
+            android:textColor="@android:color/holo_purple" />
+    </LinearLayout>
+
+
+</LinearLayout>

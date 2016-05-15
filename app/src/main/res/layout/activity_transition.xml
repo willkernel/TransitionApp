@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_centerInParent="true" />
+
+    <View
+        android:id="@+id/vertical_line"
+        android:layout_width="6dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/red_box"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_above="@+id/horizontal_line"
+        android:layout_toStartOf="@+id/vertical_line"
+        android:background="@android:color/holo_red_light" />
+
+    <ImageView
+        android:id="@+id/green_box"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_above="@+id/horizontal_line"
+        android:layout_toEndOf="@+id/vertical_line"
+        android:background="@android:color/holo_green_dark" />
+
+    <ImageView
+        android:id="@+id/blue_box"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/horizontal_line"
+        android:layout_toStartOf="@+id/vertical_line"
+        android:background="@android:color/holo_blue_dark" />
+
+    <ImageView
+        android:id="@+id/black_box"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/horizontal_line"
+        android:layout_toEndOf="@+id/vertical_line"
+        android:background="@android:color/black" />
+
+</RelativeLayout>

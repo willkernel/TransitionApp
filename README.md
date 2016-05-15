@@ -78,9 +78,18 @@ learning how to use Transition in app
 Transition类：captureStartValues();captureEndValues();createAnimator();<br>
 从2个Scene的每个Target获取StartValues和EndValues，然后用createAnimator给每个Target创建属性动画<br>
 
+Thanks for<br>
+[Sue Smith](http://code.tutsplus.com/tutorials/an-introduction-to-android-transitions--cms-21640)<br>
+[Alex Lockwood](http://www.androiddesignpatterns.com/2014/12/activity-fragment-transitions-in-android-lollipop-part1.html#footnote1)
 Note:<br>
 在SurfaceView上可能表现不正常<br>
 在TextureView上施加某些Transition 效果，可能达不到预期效果<br>
 继承自AdapterView的View，比如ListView上可能会出错<br>
 对TextView的size 施加Transition 效果时，文字的位置会突变<br>
 不要通过scene的actions在scene间传数据，用callback<br>
+
+AutoTransition在不同API下有不同效果<br>
+API_21:<br>
+![img](https://github.com/willkernel/TransitionApp/blob/master/pngs/api21.gif)<br><br>
+API_19:<br>
+![img](https://github.com/willkernel/TransitionApp/blob/master/pngs/api19.gif)<br>

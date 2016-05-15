@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TransitionApp</string>
+    <string name="transitionblue">transitionBlue</string>
+    <string name="sharedElement">SharedElement</string>
+    <string name="square_green">square_green</string>
+    <string name="square_purple">square_purple</string>
 </resources>
